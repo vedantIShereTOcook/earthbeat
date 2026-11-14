@@ -1,3 +1,4 @@
+
 import { ExperienceMetadata } from '../types';
 
 export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
@@ -24,8 +25,8 @@ export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
     description: 'A flagship interactive experience pairing the NASA Scientific Visualization Studio high-resolution ocean model visualization with dynamic, real-time sonification. As the Gulf Stream, Kuroshio, and Antarctic Circumpolar Current swirl across the globe, listen to how temperature and kinetic speed sculpt the sonic atmosphere.',
     sonificationDesign: 'Current speed controls rhythmic pulse rate (40-220 BPM) and resonant filter cutoff. Sea Surface Temperature dictates the base carrier pitch and modal chord voicing (130-660 Hz). Direction controls stereo panning.',
     mediaType: 'video',
-    mediaUrl: '/media/ecco2_ocean.mp4',
-    fallbackImage: '/media/nightlights.jpg',
+    mediaUrl: '/ecco2_ocean.mp4',
+    fallbackImage: '/nightlights.jpg',
     sampleDataCount: 112,
   },
   {
@@ -50,8 +51,8 @@ export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
     description: 'Explore 11 years of nighttime light changes observed by the VIIRS instrument on Suomi NPP. Hear how cities brighten with electrification and economic growth, while conflict zones and blackouts create sudden acoustic dampening and dropping harmonic frequencies.',
     sonificationDesign: 'Surface radiance maps directly to bell/chime harmonic resonance frequency. Positive decadal brightening increases harmonic sparkle and overtone density; declining radiance triggers dark, dampened sub-bass pulses.',
     mediaType: 'image',
-    mediaUrl: '/media/nightlights.jpg',
-    fallbackImage: '/media/nightlights.jpg',
+    mediaUrl: '/nightlights.jpg',
+    fallbackImage: '/nightlights.jpg',
     sampleDataCount: 12,
   },
   {
@@ -76,8 +77,8 @@ export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
     description: 'Experience real lightning strikes recorded from the International Space Station over six years. The Lightning Imaging Sensor tracks the optical bursts of tropical supercells over Lake Maracaibo, the Congo Basin, and Florida with millisecond precision.',
     sonificationDesign: 'Flash events trigger fast, electrostatic audio impulses and resonant crackle pings. Optical radiance governs impulse volume and harmonic sharpness; stroke duration sets envelope decay.',
     mediaType: 'image',
-    mediaUrl: '/media/lightning.jpg',
-    fallbackImage: '/media/lightning.jpg',
+    mediaUrl: '/lightning.jpg',
+    fallbackImage: '/lightning.jpg',
     sampleDataCount: 48,
   },
   {
@@ -102,8 +103,8 @@ export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
     description: 'Listen to the invisible rivers of aerosols that cross Earth. Swirling sea salt whipped up by hurricanes, Saharan dust plumes crossing the Atlantic, and smoke from wildfires produce distinct textural frequencies.',
     sonificationDesign: 'AOD thickness controls resonant bandpass filter width and center frequency. Sea salt adds oceanic rushing pink noise, desert dust adds dry granular frequencies, and smoke generates warm filtered mid-tones.',
     mediaType: 'image',
-    mediaUrl: '/media/aerosols.jpg',
-    fallbackImage: '/media/aerosols.jpg',
+    mediaUrl: '/aerosols.jpg',
+    fallbackImage: '/aerosols.jpg',
     sampleDataCount: 60,
   },
   {
@@ -128,8 +129,8 @@ export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
     description: 'Hear our planet breathe. The seasonal oscillation of atmospheric CO2—drawn down by northern hemisphere boreal forests in summer and released in winter—is audified into a deep planetary harmonic drone.',
     sonificationDesign: 'CO2 concentration (ppm) controls a deep sub-harmonic fundamental drone (55Hz to 110Hz). Seasonal drawdown creates gentle tonal dips, while rising multi-year baseline shifts the drone higher in pitch.',
     mediaType: 'image',
-    mediaUrl: '/media/carbon.jpg',
-    fallbackImage: '/media/carbon.jpg',
+    mediaUrl: '/carbon.jpg',
+    fallbackImage: '/carbon.jpg',
     sampleDataCount: 45,
   },
   {
@@ -154,8 +155,8 @@ export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
     description: 'GEDI lasers shoot 242 times per second from the ISS to measure the 3D architecture of Earth’s forests. Listen to acoustic laser footprints translating tree heights from tiny shrubs to 60-meter ancient Amazonian canopy emergents.',
     sonificationDesign: 'Canopy height (meters) translates into a vertical acoustic ladder: tall emergent trees trigger high harmonic bells and flutes; ground returns and dense understory foliage generate rich organic wood percussions.',
     mediaType: 'image',
-    mediaUrl: '/media/forest.jpg',
-    fallbackImage: '/media/forest.jpg',
+    mediaUrl: '/forest.jpg',
+    fallbackImage: '/forest.jpg',
     sampleDataCount: 36,
   },
   {
@@ -180,8 +181,8 @@ export const EXPERIENCES_METADATA: ExperienceMetadata[] = [
     description: 'Atmospheric rivers are massive, flowing columns of condensed water vapor in the sky—transporting moisture equivalent to 15 times the Mississippi River. Hear the intensifying wind velocities and torrential vapor fluxes.',
     sonificationDesign: 'IVT flux dictates white-noise resonant filtration: as moisture transport surges past 750 kg/(m·s) (atmospheric river category 3-5), audio tension ramps up with rushing fluid textures and resonant pitch glides.',
     mediaType: 'image',
-    mediaUrl: '/media/atmospheric_river.jpg',
-    fallbackImage: '/media/atmospheric_river.jpg',
+    mediaUrl: '/atmospheric_river.jpg',
+    fallbackImage: '/atmospheric_river.jpg',
     sampleDataCount: 30,
   },
 ];
